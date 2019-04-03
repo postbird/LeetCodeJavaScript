@@ -12,7 +12,7 @@ function getAllSubString(s) {
     for (let i = 0; i < len; i++) {
         let tmpStr = s[i];
         if(checkIsPalindromic(tmpStr) && res.length < tmpStr.length) {
-            res = s[i];
+            res = tmpStr;
         }
         for (let j = i + 1; j < len; j++) {
             tmpStr += s[j];
