@@ -37,6 +37,7 @@ s[i - j] = s[1] = 'b';
 s[i + j - 1] = s[2] = 'b';
 tmpStr = 'bb';
 // i = 2; j = 2
-s[i - j] = s[0] = 'c';
+s[i - j] = s[0] = 'b';
 s[i + j - 1] = s[3] = 'd';
 res = 'bb';
+
