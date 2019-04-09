@@ -21,10 +21,7 @@ function getResult(x) {
         if (hasNoZero) res += arr[i];
     }
     // 溢出判断
-    // if (!res || res > 2147483647 || res < -2147483647) return '0';
-    if(checkIsOut(res)) {
-        return '0';
-    }
+    if (!res || res > 2147483647 || res < -2147483647) return '0';
     
     return res;
 }
